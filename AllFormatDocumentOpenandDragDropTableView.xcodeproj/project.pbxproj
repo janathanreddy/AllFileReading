@@ -15,6 +15,7 @@
 		21419856259C51AD0082ED0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21419854259C51AD0082ED0B /* LaunchScreen.storyboard */; };
 		21419861259C51AE0082ED0B /* AllFormatDocumentOpenandDragDropTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21419860259C51AE0082ED0B /* AllFormatDocumentOpenandDragDropTableViewTests.swift */; };
 		2141986C259C51AE0082ED0B /* AllFormatDocumentOpenandDragDropTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2141986B259C51AE0082ED0B /* AllFormatDocumentOpenandDragDropTableViewUITests.swift */; };
+		2141987D259C54DC0082ED0B /* SwiftBeginner.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2141987C259C54DC0082ED0B /* SwiftBeginner.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		21419867259C51AE0082ED0B /* AllFormatDocumentOpenandDragDropTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllFormatDocumentOpenandDragDropTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2141986B259C51AE0082ED0B /* AllFormatDocumentOpenandDragDropTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllFormatDocumentOpenandDragDropTableViewUITests.swift; sourceTree = "<group>"; };
 		2141986D259C51AE0082ED0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2141987C259C54DC0082ED0B /* SwiftBeginner.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SwiftBeginner.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		21419848259C51A90082ED0B /* AllFormatDocumentOpenandDragDropTableView */ = {
 			isa = PBXGroup;
 			children = (
+				2141987C259C54DC0082ED0B /* SwiftBeginner.pdf */,
 				21419849259C51A90082ED0B /* AppDelegate.swift */,
 				2141984B259C51A90082ED0B /* SceneDelegate.swift */,
 				2141984D259C51A90082ED0B /* ViewController.swift */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2141987D259C54DC0082ED0B /* SwiftBeginner.pdf in Resources */,
 				21419856259C51AD0082ED0B /* LaunchScreen.storyboard in Resources */,
 				21419853259C51AD0082ED0B /* Assets.xcassets in Resources */,
 				21419851259C51A90082ED0B /* Main.storyboard in Resources */,
