@@ -14,8 +14,6 @@ class ViewController: UIViewController, UIDocumentPickerDelegate {
     
     
 
-    @IBOutlet weak var tableView: UITableView!
-    var tableViewData = [String]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,13 +21,6 @@ class ViewController: UIViewController, UIDocumentPickerDelegate {
 
     
     @IBAction func OpenDocument(_ sender: Any) {
-//        let url = Bundle.main.url(forResource: "SwiftBeginner", withExtension: "pdf")
-//        if let url = url{
-//            let webView = WKWebView(frame: view.frame)
-//            let Url_Request = URLRequest(url:url)
-//            webView.load(Url_Request)
-//            view.addSubview(webView)
-//        }
         let documentPicker = UIDocumentPickerViewController(documentTypes: [kUTTypePlainText as String], in: .import)
         documentPicker.delegate = self
         documentPicker.allowsMultipleSelection = false
@@ -47,8 +38,6 @@ class ViewController: UIViewController, UIDocumentPickerDelegate {
         
         if FileManager.default.fileExists(atPath: sandboxFileURL.path) {
             print("Already exists! Do nothing \(sandboxFileURL.path)")
-                    let url = Bundle.main.url(forResource: "SwiftBeginner", withExtension: "pdf")
-                    if let url = url{
                         let webView = WKWebView(frame: view.frame)
                         let Url_Request = URLRequest(url:sandboxFileURL)
                         webView.load(Url_Request)
@@ -56,7 +45,6 @@ class ViewController: UIViewController, UIDocumentPickerDelegate {
                         print("selectedFileURL : \(selectedFileURL)")
                         print("sandboxFileURL : \(sandboxFileURL)")
                         view.addSubview(webView)
-                    }
 
         }
         else {
